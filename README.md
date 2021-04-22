@@ -20,3 +20,9 @@ Output = ['aa','ab',...,'zt']
 Insert_letter('as')
 Output = ['asa','aas' , 'abs' , ... ]
 ```
+4- The function 'edit_one_letter' return all possible permutations of your given word with above three functions as a dictionary.
+5- The function 'edit_two_letter' return all possible permutations of your given word using exactly two stacked above functions as a dictionary.
+6- If the words in two dictionaries didn't exist in Shakespeare's corpus then we remove them from the dictionaries.
+7- every generated word has unique cost:
+  * if the word is created by Deleted_letter & Insert_letter functions then it has cost 1.
+  * if the word is created by Replace_letter fucntion, it has cost 2.
