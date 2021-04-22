@@ -6,17 +6,17 @@ The code checks your given word is correct based on Shakespeare's corpus or need
 Instructions:
 
 1- The function 'Deleted_letter' returns all of the possible permutation(whether meaningful or meaningless) of your given word by subtracting one letter.
-```
+```python
 Deleted_letter('ate')
 Output = ['at','te','ae']
 ```
 2- The function 'Replace_letter' returns all of the possible words(whether meaningful or meaningless) that will create by replacing one letter of your given word.
-```
+```python
 Replace_letter('at')
 Output = ['aa','ab',...,'zt']
 ```
 3- The function 'Insert_letter' return all of the possible words(whether meaningful or meaningless) that will create by adding one letter to your given word.
-```
+```python
 Insert_letter('as')
 Output = ['asa','aas' , 'abs' , ... ]
 ```
