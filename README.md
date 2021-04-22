@@ -29,3 +29,9 @@ Output = ['asa','aas' , 'abs' , ... ]
 
 8- Now we choose one word with minimum cost as a replacement for the given word.
 <br>9- If more than one word has the same minimum cost, we calculate the unigram of them then choose the word with a maximum occurrence probability. 
+
+```python
+Example : 
+Your word: flw
+The code output: flow.
+```
