@@ -27,5 +27,5 @@ Output = ['asa','aas' , 'abs' , ... ]
   * if the word is created by Deleted_letter & Insert_letter functions then it has cost 1.
   * if the word is created by Replace_letter fucntion, it has cost 2.
 
-<br>8- Now we choose one word with minimum cost as a replacement for the given word.
+8- Now we choose one word with minimum cost as a replacement for the given word.
 <br>9- If more than one word has the same minimum cost, we calculate the unigram of them then choose the word with a maximum occurrence probability. 
